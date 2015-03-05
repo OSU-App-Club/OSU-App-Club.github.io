@@ -1,6 +1,0 @@
-#! /bin/bash
-rm css/main.css
-lessc css/main.less > css/main.css -x
-
-
-echo "Compiled main.less"
