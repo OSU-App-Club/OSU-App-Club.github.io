@@ -143,6 +143,12 @@
                     <a href="http://github.us3.list-manage.com/subscribe?u=fd2c3ad09c7f68d57742853ac&id=4747bbfb53" class="btn btn-lg btn-outline" id="mailbutton">Click here to sign up for our mail list!</a>
                 </div>
             </div>
+            <hr>
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 text-center">
+                    <div id="CommunityInviter"></div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -275,6 +281,22 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
+    <script>
+      window.CommunityInviterAsyncInit = function () {
+          CommunityInviter.init({
+              app_url:'website',
+              team_id:'osuappclub'
+           })
+      };
+
+      (function(d, s, id){
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+              js = d.createElement(s); js.id = id;
+              js.src = "https://communityinviter.com/js/communityinviter.js";
+              fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'Community_Inviter'));
+    </script>
 
 </body>
 
