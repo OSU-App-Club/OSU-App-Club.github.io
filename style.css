@@ -35,6 +35,10 @@ h1 {
     margin-bottom: 10px;
 }
 
+h2 {
+    font-weight: 300px;
+}
+
 p {
     line-height: 1.6;
 }
