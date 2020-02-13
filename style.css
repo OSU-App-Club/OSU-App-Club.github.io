@@ -36,7 +36,8 @@ h1 {
 }
 
 h2 {
-    font-weight: 300px;
+    font-weight: 300;
+    font-size: medium;
 }
 
 p {
